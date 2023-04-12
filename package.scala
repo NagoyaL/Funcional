@@ -10,7 +10,7 @@ package object ConjuntosDifusos {
 
   // Funcion que crea el conjunto difuso de numeros grandes
   def grande(d: Int, e: Int) : ConjDifuso = {
-    // Funcion auxiliar que hace el calculo del grado de pertenencia
+    // Funcion auxiliar que calcula el grado de pertenencia
     def grandeAux(x: Int) : Double = {
       val y = x.toDouble / (x+d).toDouble
       math.pow(y, e)
