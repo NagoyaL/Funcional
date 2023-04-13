@@ -1,4 +1,4 @@
-import Conjuntos Difusos.
+import Conjuntos Difusos._
 
 def muchoMayorQue(a:Int, m:Int) : ConjDifuso = {
   def mma(x: Int) : Double = {
